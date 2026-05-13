@@ -84,6 +84,16 @@
       color: #4CAF50;
     }
 
+    .copy {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 3px 10px;
+      background: #2a2a2a;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      color: #00674F;
+    }
+
     .footer {
       margin-top: 60px;
       color: #444;
@@ -109,7 +119,7 @@
         <div class="tool-icon">🔐</div>
         <h2>Password Checker</h2>
         <p>Check your password strength instantly. Generate secure passwords with one click.</p>
-        <button id="copyBtn1" onclick="copyLink(this, 'https://darthadas.github.io/password-checker')">Copy</button>
+        <button class="copy" id="copyBtn1" onclick="copyLink(this, 'https://darthadas.github.io/password-checker')">Copy</button>
         <span class="tag">Security</span>
       </a>
 
@@ -117,7 +127,7 @@
         <div class="tool-icon">📖</div>
         <h2>Readability Scorer</h2>
         <p>Analyse any text for reading level, word count, and Flesch score. Great for writers.</p>
-        <button id="copyBtn2" onclick="copyLink(this, 'https://darthadas.github.io/readability-scorer')">Copy</button>
+        <button class="copy" id="copyBtn2" onclick="copyLink(this, 'https://darthadas.github.io/readability-scorer')">Copy</button>
         <span class="tag">Writing</span>
       </a>
 
