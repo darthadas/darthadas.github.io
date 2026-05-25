@@ -16,4 +16,8 @@
     <loc>https://darthadas.github.io/word-counter/</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://darthadas.github.io/invoice-generator/</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>
