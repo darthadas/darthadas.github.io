@@ -1,27 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://darthadas.github.io/</loc>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://darthadas.github.io/password-checker/</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://darthadas.github.io/readability-scorer/</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://darthadas.github.io/word-counter/</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://darthadas.github.io/invoice-generator/</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://darthadas.github.io/unit-converter/</loc>
-<priority>0.8</priority>
-</url>
+
+  <!-- Main pages -->
+  <url>
+    <loc>https://darthadas.github.io/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://darthadas.github.io/privacy.html</loc>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Tools -->
+  <url>
+    <loc>https://darthadas.github.io/password-checker/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://darthadas.github.io/readability-scorer/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://darthadas.github.io/word-counter/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://darthadas.github.io/invoice-generator/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://darthadas.github.io/unit-converter/</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://darthadas.github.io/blog/</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://darthadas.github.io/blog/how-to-write-a-strong-password.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://darthadas.github.io/blog/what-is-readability.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://darthadas.github.io/blog/how-to-write-a-professional-invoice.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://darthadas.github.io/blog/metric-vs-imperial.html</loc>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
