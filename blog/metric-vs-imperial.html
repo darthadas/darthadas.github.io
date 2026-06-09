@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metric vs Imperial — A Practical Guide — Adas's Tools</title>
+  <meta name="description" content="Why does the US still use miles and pounds? And how do you quickly convert between the two systems without getting confused?">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: #f0f0f0;
+      padding: 60px 20px;
+      line-height: 1.8;
+    }
+    .container { max-width: 680px; margin: 0 auto; }
+    .back { color: #4CAF50; text-decoration: none; font-size: 0.9rem; }
+    .back:hover { text-decoration: underline; }
+    h1 { font-size: 1.8rem; margin: 20px 0 12px; line-height: 1.3; }
+    .meta { color: #666; font-size: 0.85rem; margin-bottom: 40px; }
+    h2 { font-size: 1.2rem; margin: 36px 0 12px; color: #fff; }
+    p { color: #bbb; margin-bottom: 16px; }
+    .highlight {
+      background: #1a1a1a;
+      border-left: 3px solid #4CAF50;
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 24px 0;
+      color: #ddd;
+    }
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-size: 0.9rem;
+    }
+    .compare-table th {
+      background: #1a1a1a;
+      padding: 12px;
+      text-align: left;
+      color: #888;
+      font-weight: normal;
+      border-bottom: 1px solid #2a2a2a;
+    }
+    .compare-table td {
+      padding: 12px;
+      border-bottom: 1px solid #1a1a1a;
+      color: #bbb;
+    }
+    .compare-table tr:hover td { background: #111; }
+    .cta {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 10px;
+      padding: 24px;
+      margin-top: 48px;
+      text-align: center;
+    }
+    .cta p { margin-bottom: 16px; }
+    .cta a {
+      display: inline-block;
+      padding: 12px 28px;
+      background: #4CAF50;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    .cta a:hover { background: #45a049; }
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #444;
+      border-top: 1px solid #1a1a1a;
+      padding-top: 24px;
+    }
+    footer a { color: #444; margin: 0 8px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="back" href="https://darthadas.github.io/blog/">← Back to Blog</a>
+
+    <h1>Metric vs Imperial — A Practical Guide</h1>
+    <p class="meta">By Adas · Reference · 5 min read</p>
+
+    <p>Most of the world measures distance in kilometres, weight in kilograms, and temperature in Celsius. Then there's the United States — still measuring in miles, pounds, and Fahrenheit — along with a handful of other countries that never fully switched.</p>
+
+    <p>If you've ever looked at a recipe in cups, read a weather forecast in Fahrenheit, or tried to understand an American's height in feet and inches, you've felt the friction between these two systems. This guide explains the difference, why it exists, and how to convert between them quickly.</p>
+
+    <h2>Where They Come From</h2>
+
+    <p>The imperial system evolved organically over centuries in Britain, with units often based on practical references — an inch was roughly the width of a thumb, a foot was the length of a human foot, and a mile came from the Roman concept of a thousand paces. These units were inconsistent and difficult to scale mathematically.</p>
+
+    <p>The metric system was designed deliberately. France introduced it in 1799 as a rational, decimal-based alternative where every unit scales by powers of ten. One kilometre is exactly 1,000 metres. One kilogram is exactly 1,000 grams. The simplicity made it ideal for science, engineering, and international trade.</p>
+
+    <p>Britain officially adopted metric in the 1960s and 70s, as did most of the world. The United States began the process but never completed it — a combination of cost, cultural resistance, and lack of political will left the imperial system embedded in everyday American life.</p>
+
+    <h2>The Key Differences</h2>
+
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>Measurement</th>
+          <th>Metric</th>
+          <th>Imperial</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Distance (short)</td>
+          <td>metres, centimetres</td>
+          <td>feet, inches, yards</td>
+        </tr>
+        <tr>
+          <td>Distance (long)</td>
+          <td>kilometres</td>
+          <td>miles</td>
+        </tr>
+        <tr>
+          <td>Weight</td>
+          <td>kilograms, grams</td>
+          <td>pounds, ounces</td>
+        </tr>
+        <tr>
+          <td>Temperature</td>
+          <td>Celsius</td>
+          <td>Fahrenheit</td>
+        </tr>
+        <tr>
+          <td>Volume</td>
+          <td>litres, millilitres</td>
+          <td>gallons, pints, cups</td>
+        </tr>
+        <tr>
+          <td>Speed</td>
+          <td>km/h, m/s</td>
+          <td>mph</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Quick Conversions Worth Memorising</h2>
+
+    <p>You don't need to memorise exact conversion rates. A handful of rough approximations get you close enough for everyday use.</p>
+
+    <div class="highlight">
+      <strong style="color:#fff">Distance</strong><br>
+      1 mile ≈ 1.6 kilometres<br>
+      1 foot ≈ 30 centimetres<br>
+      1 inch ≈ 2.5 centimetres<br><br>
+
+      <strong style="color:#fff">Weight</strong><br>
+      1 kilogram ≈ 2.2 pounds<br>
+      1 pound ≈ 450 grams<br><br>
+
+      <strong style="color:#fff">Temperature</strong><br>
+      0°C = 32°F (freezing)<br>
+      20°C = 68°F (comfortable room temperature)<br>
+      37°C = 98.6°F (body temperature)<br>
+      100°C = 212°F (boiling)<br><br>
+
+      <strong style="color:#fff">Volume</strong><br>
+      1 litre ≈ 0.26 US gallons<br>
+      1 US cup = 240 millilitres
+    </div>
+
+    <h2>The Temperature Problem</h2>
+
+    <p>Temperature is the most confusing conversion because it involves both multiplication and addition — you can't just multiply by a single number the way you can with distance or weight.</p>
+
+    <p>The exact formula from Celsius to Fahrenheit is: multiply by 9, divide by 5, then add 32. Going the other way — Fahrenheit to Celsius — subtract 32, multiply by 5, then divide by 9.</p>
+
+    <p>A faster mental shortcut: double the Celsius temperature and add 30 to get an approximate Fahrenheit value. It's not exact but it's close enough for everyday situations. 20°C doubled is 40, plus 30 gives 70°F — the actual answer is 68°F, so the shortcut gets you within a couple of degrees.</p>
+
+    <h2>When You Need Precision</h2>
+
+    <p>Mental approximations work for casual situations — understanding a weather forecast, following a rough recipe, or estimating distances while travelling. For anything requiring accuracy — engineering, science, medical measurements, or financial calculations involving weight or volume — use an exact converter.</p>
+
+    <p>The difference between an approximation and an exact value is small for most everyday purposes but significant when precision matters. 1 mile is 1.60934 kilometres, not exactly 1.6. For a 10-mile run that difference is negligible. For a 1,000-mile shipping route it compounds into a meaningful error.</p>
+
+    <div class="cta">
+      <p>Convert between metric and imperial units instantly and accurately.</p>
+      <a href="https://darthadas.github.io/unit-converter/">Try the Unit Converter →</a>
+    </div>
+
+    <footer>
+      <a href="https://darthadas.github.io">Adas's Tools</a>
+      <a href="https://darthadas.github.io/blog/">Blog</a>
+      <a href="https://darthadas.github.io/privacy.html">Privacy Policy</a>
+    </footer>
+  </div>
+</body>
+</html>
